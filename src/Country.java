@@ -1,14 +1,14 @@
 
 public class Country {
 	protected String name;
-	protected int population;
+	protected long population;
 	
 	
 	
 	public Country() {
 		super();
 	}
-	public Country(String name, int population) {
+	public Country(String name, long population) {
 		super();
 		this.name = name;
 		this.population = population;
@@ -19,7 +19,7 @@ public class Country {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getPopulation() {
+	public long getPopulation() {
 		return population;
 	}
 	public void setPopulation(int population) {
